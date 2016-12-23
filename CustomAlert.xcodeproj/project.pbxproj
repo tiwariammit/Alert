@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F064FB361E0CD237004B1067 /* ATAndroidTypeToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = F064FB351E0CD237004B1067 /* ATAndroidTypeToast.swift */; };
+		F064FB381E0CD29F004B1067 /* IOSPublicDefaultAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = F064FB371E0CD29F004B1067 /* IOSPublicDefaultAlert.swift */; };
 		F098C8101E0A5FF4001C6989 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F098C80F1E0A5FF4001C6989 /* AppDelegate.swift */; };
 		F098C8121E0A5FF4001C6989 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F098C8111E0A5FF4001C6989 /* ViewController.swift */; };
 		F098C8151E0A5FF4001C6989 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F098C8131E0A5FF4001C6989 /* Main.storyboard */; };
@@ -14,6 +16,8 @@
 		F098C81A1E0A5FF4001C6989 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F098C8181E0A5FF4001C6989 /* LaunchScreen.storyboard */; };
 		F098C8251E0A5FF4001C6989 /* CustomAlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F098C8241E0A5FF4001C6989 /* CustomAlertTests.swift */; };
 		F098C8301E0A5FF4001C6989 /* CustomAlertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F098C82F1E0A5FF4001C6989 /* CustomAlertUITests.swift */; };
+		F0F4E4481E0A8B0A003B2994 /* ATToastMessageAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F4E4471E0A8B0A003B2994 /* ATToastMessageAlert.swift */; };
+		F0F4E44A1E0AAA6A003B2994 /* CustomToastViewClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F4E4491E0AAA6A003B2994 /* CustomToastViewClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F064FB351E0CD237004B1067 /* ATAndroidTypeToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATAndroidTypeToast.swift; sourceTree = "<group>"; };
+		F064FB371E0CD29F004B1067 /* IOSPublicDefaultAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IOSPublicDefaultAlert.swift; sourceTree = "<group>"; };
 		F098C80C1E0A5FF4001C6989 /* CustomAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F098C80F1E0A5FF4001C6989 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F098C8111E0A5FF4001C6989 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,8 @@
 		F098C82B1E0A5FF4001C6989 /* CustomAlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomAlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F098C82F1E0A5FF4001C6989 /* CustomAlertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertUITests.swift; sourceTree = "<group>"; };
 		F098C8311E0A5FF4001C6989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0F4E4471E0A8B0A003B2994 /* ATToastMessageAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATToastMessageAlert.swift; sourceTree = "<group>"; };
+		F0F4E4491E0AAA6A003B2994 /* CustomToastViewClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomToastViewClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,10 @@
 				F098C8161E0A5FF4001C6989 /* Assets.xcassets */,
 				F098C8181E0A5FF4001C6989 /* LaunchScreen.storyboard */,
 				F098C81B1E0A5FF4001C6989 /* Info.plist */,
+				F0F4E4471E0A8B0A003B2994 /* ATToastMessageAlert.swift */,
+				F0F4E4491E0AAA6A003B2994 /* CustomToastViewClass.swift */,
+				F064FB351E0CD237004B1067 /* ATAndroidTypeToast.swift */,
+				F064FB371E0CD29F004B1067 /* IOSPublicDefaultAlert.swift */,
 			);
 			path = CustomAlert;
 			sourceTree = "<group>";
@@ -260,6 +272,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F098C8121E0A5FF4001C6989 /* ViewController.swift in Sources */,
+				F064FB381E0CD29F004B1067 /* IOSPublicDefaultAlert.swift in Sources */,
+				F0F4E4481E0A8B0A003B2994 /* ATToastMessageAlert.swift in Sources */,
+				F064FB361E0CD237004B1067 /* ATAndroidTypeToast.swift in Sources */,
+				F0F4E44A1E0AAA6A003B2994 /* CustomToastViewClass.swift in Sources */,
 				F098C8101E0A5FF4001C6989 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +521,7 @@
 				F098C8361E0A5FF4001C6989 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F098C8371E0A5FF4001C6989 /* Build configuration list for PBXNativeTarget "CustomAlertTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +530,7 @@
 				F098C8391E0A5FF4001C6989 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F098C83A1E0A5FF4001C6989 /* Build configuration list for PBXNativeTarget "CustomAlertUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +539,7 @@
 				F098C83C1E0A5FF4001C6989 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
